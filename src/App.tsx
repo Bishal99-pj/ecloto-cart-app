@@ -92,7 +92,7 @@ function App() {
         </div>
         <ProgressBar progress={progressForFreeGift} subTotal={subTotal} threshold={THRESHOLD} />
 
-        {showGiftMessage && (<p className='bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4'>Congratulations! A free gift has been added to your cart</p>)}
+        {showGiftMessage && (<p className='bg-green-100 border border-green-400 text-green-700 px-4 py-3 shadow rounded-md mb-4'>🎉 Congratulations! A free gift has been added to your cart</p>)}
 
         <ShoppingCart items={cartItems} updateQuantity={updateItemQuantity} removeFromCart={removeItemFromCart} freeGiftProductId={FREE_GIFT.id} />
 
