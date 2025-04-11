@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-sky-200 font-[Inter_Tight];
+  }
+}
+
+@layer components {
+  .add_to_cart_cta {
+    @apply bg-blue-700 px-2 py-2 rounded-md cursor-pointer font-medium hover:bg-blue-600 transition-colors text-sm text-white;
+  }
+}
